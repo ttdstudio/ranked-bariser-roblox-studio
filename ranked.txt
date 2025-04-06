@@ -17,7 +17,7 @@ main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 main.ResetOnSpawn = false
 
 Frame.Parent = main
-Frame.BackgroundColor3 = Color3.fromRGB(163, 255, 137)
+Frame.BackgroundColor3 = Color3.fromRGB(0, 177, 255)
 Frame.BorderColor3 = Color3.fromRGB(103, 221, 213)
 Frame.Position = UDim2.new(0.144, 0,0.255, 0)
 Frame.Size = UDim2.new(0, 185, 0, 134)
