@@ -1,1 +1,2 @@
-
+local main = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
