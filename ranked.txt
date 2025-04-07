@@ -3,7 +3,6 @@ local Frame = Instance.new("Frame")
 local up = Instance.new("TextButton")
 local down = Instance.new("TextButton")
 local onof = Instance.new("TextButton")
-local TextLabel = Instance.new("TextLabel")
 local plus = Instance.new("TextButton")
 local speed = Instance.new("TextLabel")
 local mine = Instance.new("TextButton")
@@ -51,16 +50,6 @@ onof.Text = "fly"
 onof.TextColor3 = Color3.fromRGB(255,255,255)
 onof.TextSize = 14.000
 
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(0, 177, 255)
-TextLabel.Position = UDim2.new(0.469327301, 0, 0, 0)
-TextLabel.Size = UDim2.new(0, 100, 0, 28)
-TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "FLY TOILET TOWER DEFENSE"
-TextLabel.TextColor3 = Color3.fromRGB(255,255,255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
 
 plus.Name = "plus"
 plus.Parent = Frame
